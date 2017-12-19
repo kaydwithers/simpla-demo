@@ -36,6 +36,7 @@
 
     <!-- Import Simpla elements -->
     <link rel="import" href="/bower_components/simpla-text/simpla-text.html">
+    <link rel="import" href="/bower_components/simpla-link/simpla-link.html">
     <link rel="import" href="/bower_components/simpla-img/simpla-img.html">
     <link rel="import" href="/bower_components/simpla-admin/simpla-admin.html" async>
 
@@ -43,10 +44,25 @@
 
   <body>
 
-    <h1>Simpla CMS Demo</h1>
+    <h1>
+      <simpla-text path="/text/title"></simpla-text>
+    </h1>
 
-    <!-- Block of editable richtext -->
-    <simpla-text path="/text"></simpla-text>
+    <p><simpla-text path="/text"></simpla-text></p>
+
+    <p>plaintext</p>
+    <p><simpla-text path="/text" plaintext></simpla-text></p>
+
+    <p>no-typographer</p>
+    <p><simpla-text path="/text" no-typographer></simpla-text></p>
+
+    <simpla-link path="/link" placeholder="URL for next page">
+      Next page >
+    </simpla-link>
+
+    <simpla-link path="/button">
+      <simpla-text path="/button/label" plaintext></simpla-text> 
+    </simpla-link>
 
     <!-- An editable image -->
     <img is="simpla-img" path="/section/img">
