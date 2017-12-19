@@ -1,9 +1,9 @@
 {
   "type": "Text",
   "data": {
-    "text": "<p>Buttton</p>"
+    "text": "<p>This is a button apparently</p>"
   },
   "path": "/button/label",
   "createdAt": "2017-12-19T03:00:02.992Z",
-  "updatedAt": "2017-12-19T03:11:28.412Z"
+  "updatedAt": "2017-12-19T03:14:31.829Z"
 }
