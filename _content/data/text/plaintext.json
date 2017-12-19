@@ -1,0 +1,9 @@
+{
+  "type": "Text",
+  "data": {
+    "text": "This is &lt;b&gt;plaintext&lt;/b&gt;"
+  },
+  "path": "/text/plaintext",
+  "createdAt": "2017-12-19T03:08:11.862Z",
+  "updatedAt": "2017-12-19T03:08:37.526Z"
+}
