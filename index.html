@@ -10,13 +10,45 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
 
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <!-- Include Simpla, Netlify auth adapter, and cross-browser polyfill-->
+    <script src="https://unpkg.com/simpla@^3.0.0"></script>
+    <script src="https://unpkg.com/simpla@^3.0.0/adapters/netlify.js"></script>
+    <script src="https://unpkg.com/webcomponents.js@^0.7.24/webcomponents-lite.min.js" async></script>
+
+    <!-- Import Simpla elements -->
+    <link rel="import" href="/bower_components/simpla-text/simpla-text.html">
+    <link rel="import" href="/bower_components/simpla-img/simpla-img.html">
+    <link rel="import" href="/bower_components/simpla-admin/simpla-admin.html" async>
+
+    <!-- Init Simpla -->
+    <script>
+      Simpla.init({
+
+        // The Github repo you want Simpla to use
+        repo: 'kaydwithers/simpla-demo',
+
+        // Netlify auth adapter, initialize with your Netlify site name
+        auth: new SimplaNetlify({ site: 'simpla-demo' }),
+
+        // Public content source (optional)
+        // Defaults to fetching directly from Github
+        source: 'https://simpla-demo.netlify.com/'
+
+      });
+    </script>
   </head>
 
   <body>
 
-    <p>Hello world! This is HTML5 Boilerplate.</p>
+    <h1>Simpla CMS Demo</h1>
+
+    <!-- Block of editable richtext -->
+    <simpla-text path="/text"></simpla-text>
+
+    <!-- An editable image -->
+    <img is="simpla-img" path="/section/img">
 
     <script src="js/main.js"></script>
 
