@@ -1,0 +1,9 @@
+{
+  "type": "Text",
+  "data": {
+    "text": "This is &lt;b&gt;no-typographer&lt;/b&gt; -- \"\" text"
+  },
+  "path": "/text/no-typographer",
+  "createdAt": "2017-12-19T03:08:11.863Z",
+  "updatedAt": "2017-12-19T03:09:00.923Z"
+}
