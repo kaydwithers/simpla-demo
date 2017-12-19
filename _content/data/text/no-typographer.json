@@ -1,9 +1,9 @@
 {
   "type": "Text",
   "data": {
-    "text": "This is &lt;b&gt;no-typographer&lt;/b&gt; -- \"\" text"
+    "text": "<strong>This&nbsp;</strong>is <a href=\"https://www.webcomponents.org/element/simplajs/simpla-link\">no-typographer</a> text"
   },
   "path": "/text/no-typographer",
   "createdAt": "2017-12-19T03:08:11.863Z",
-  "updatedAt": "2017-12-19T03:09:00.923Z"
+  "updatedAt": "2017-12-19T03:14:13.930Z"
 }
