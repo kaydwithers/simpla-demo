@@ -1,9 +1,9 @@
 {
   "type": "Text",
   "data": {
-    "text": "Simpla CMS Demo"
+    "text": "<u>Simpla CMS Demo</u>"
   },
   "path": "/text/title",
   "createdAt": "2017-12-19T03:00:03.239Z",
-  "updatedAt": "2017-12-19T03:02:28.422Z"
+  "updatedAt": "2017-12-19T03:15:12.243Z"
 }
