@@ -214,9 +214,9 @@ h2 {
 }
 
 h6 {
-  font-size: 2rem;
-  line-height: 4rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  line-height: 3.5rem;
+  margin-bottom: 1.8rem;
 }
 
 p, a, input, textarea {
@@ -233,6 +233,7 @@ p, a, input, textarea {
 
 .btn {
   color: var(--purple);
+  cursor: pointer;
   padding: 1rem 2rem;
   background: white;
   box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px;
