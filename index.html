@@ -59,18 +59,6 @@
           </simpla-text>
         </h1>
 
-        <h1 class="c-white  mb-6">
-            <simpla-text path="/header/heading" placeholder="Type something…" plaintext>
-              [PH] Header Heading
-            </simpla-text>
-          </h1>
-
-          <h1 class="c-white  mb-6">
-              <simpla-text path="/header/heading" placeholder="Type something…" no-typographer>
-                [PH] Header Heading
-              </simpla-text>
-            </h1>
-
         <simpla-link class="btn" href="/" path="/header/link" placeholder="Type something…">
           Contact us >
         </simpla-link>
@@ -159,10 +147,12 @@
 
         <div class="layout  ta-c  mv-6">
           <div class="layout__item  w-100">
-            <simpla-text path="/events-b/paragraph-a" placeholder="Type something…"><p>[PH] Events B Paragraph</p></simpla-text>
-            <p><simpla-text path="/events-b/paragraph-b" placeholder="Type something…">[PH] Events B Paragraph</simpla-text></p>
-            <p><simpla-text path="/events-b/paragraph-c" placeholder="Type something…">[PH] Events B Paragraph</simpla-text></p>
-            <p><simpla-text path="/events-b/paragraph-d" placeholder="Type something…"></simpla-text></p>
+            <simpla-text path="/events-b/paragraph-a" placeholder="Type something…"><h6>[PH] Events B Paragraph</h6></simpla-text>
+            <h6><simpla-text path="/events-b/paragraph-b" placeholder="Type something…">[PH] Events B Paragraph</simpla-text></h6>
+            <simpla-text path="/events-b/paragraph-c" placeholder="Type something…"><h6></h6></simpla-text>
+            <h6><simpla-text path="/events-b/paragraph-d" placeholder="Type something…"></simpla-text></h6>
+            <h6><class="h6" simpla-text path="/events-b/paragraph-e" placeholder="Type something…"></simpla-text></h6>
+            <h6><class="h6" simpla-text path="/events-b/paragraph-f" placeholder="Type something…">[PH] Events F Paragraph</simpla-text></h6>
           </div>
         </div>
 
@@ -174,9 +164,11 @@
         <p><simpla-text path="/demo/simpla-text/default" placeholder="Type something…"></simpla-text></p>
     
         <h6>Simpla Text – plaintext</h6>
+        <p>Disables all formatting tools and forces simpla-text to create plain text content only.</p>
         <p><simpla-text path="/demo/simpla-text/plaintext" plaintext placeholder="Type something…"></simpla-text></p>
     
         <h6>Simpla Text – no-typographer</h6>
+        <p>Disables 'smart typography' rules to its content.</p>
         <p><simpla-text path="/demo/simpla-text/no-typographer" no-typographer placeholder="Type something…"></simpla-text></p>
     
         <h6>Simpla Link – default</h6>
@@ -186,7 +178,7 @@
     
         <h6>Simpla Link with Simpla Text</h6>
         <simpla-link href="/" path="/demo/simpla-link">
-          <simpla-text path="/demo/simpla-text/label" plaintext placeholder="Type something…"></simpla-text> 
+          <simpla-text path="/demo/simpla-text/label" placeholder="Type something…"></simpla-text> 
         </simpla-link>
     
         <h6>Simpla Image</h6>
