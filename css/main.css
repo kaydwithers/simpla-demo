@@ -213,6 +213,12 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+h6 {
+  font-size: 2rem;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
+}
+
 p, a, input, textarea {
   font-size: 1.8rem;
   line-height: var(--global-line-height);

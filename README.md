@@ -1,9 +1,12 @@
 # Simpla CMS Demo
 
-To run locally
+### To run locally
 `http-server`
 
-To push changes
+### Always pull to get any page edits
+`git pull`
+
+### To push changes
 `git add.`
 `git commit -m "Commit message"`
 `git push -u origin master`
