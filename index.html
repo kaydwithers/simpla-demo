@@ -156,6 +156,8 @@
 
         <h5><simpla-text path="/demo/title" placeholder="Heading" placeholder="Type something…"></simpla-text></h5>
 
+        <p>Be sure to remove any [PH] text before going to production to prevent FOUC.</p>
+
         <h6>Simpla Text – default</h6>
         <p><simpla-text path="/demo/simpla-text/default" placeholder="Type something…"></simpla-text></p>
     
@@ -187,8 +189,8 @@
         <simpla-collection sid="faqs">
           <template>
             <div sid="[item]">
-              <simpla-text sid="question"></simpla-text> 
-              <simpla-text sid="answer"></simpla-text> 
+              <h6><simpla-text sid="question"></simpla-text></h6>
+              <p><simpla-text sid="answer"></simpla-text></p>
             </div>
           </template>
         </simpla-collection>
