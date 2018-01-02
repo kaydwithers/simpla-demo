@@ -1,9 +1,9 @@
 {
   "type": "Text",
   "data": {
-    "text": "  This <u>text</u> has&nbsp; &nbsp; &nbsp;&nbsp;<em>been&nbsp;</em><strong>overwritten</strong>!"
+    "text": "  This <u>text</u> has&nbsp; &nbsp;<em>been&nbsp;</em><strong>overwritten</strong>!"
   },
   "path": "/about-us/b",
   "createdAt": "2017-12-29T23:05:11.030Z",
-  "updatedAt": "2018-01-02T00:37:41.924Z"
+  "updatedAt": "2018-01-02T01:19:38.608Z"
 }
