@@ -1,9 +1,9 @@
 {
   "type": "Text",
   "data": {
-    "text": "This is a cool heading"
+    "text": "This is a heading"
   },
   "path": "/header/heading",
   "createdAt": "2017-12-29T23:05:11.027Z",
-  "updatedAt": "2018-01-05T05:19:17.468Z"
+  "updatedAt": "2018-01-05T05:20:55.244Z"
 }
